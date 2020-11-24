@@ -1,50 +1,126 @@
-body{
-    background-color: rgb(66, 64, 68);
+body {
+    
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue",     sans-serif;
+    margin: 0;
+        
 }
-
-h1{
-    font-family: courier, monospace;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 2em;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border: 3px solid #000000;
-}
-
-  body {
-    background: linear-gradient(to right, #636363, #000000);
-  }
-
-  .upptext{
+p{
     color: #ffffff;
-    border: 3px solid #000000;
-  }
-  .right{
-      float: right;
-      width: 150px;
-      border: 3px solid #ffffff;
-      padding: 10px;
- }
-.text1{
+}
+
+.masthead{
+  padding: 15em 0;
+  background-image: url("https://www.wisc-online.com/assetrepository/getfile?id=1510");
+  background-size: cover;
+  height: 240px;
+  background-repeat: no-repeat;
   color: #ffffff;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  
+  border-top: solid 1em #000000;
+
+  
+}
+.masthead-intro{
+  text-align: center;
+  margin-bottom: 0.1em;
+}
+.masthead-heading{
+  text-align: center;
+  margin-top: -0.2em;
+  font-size: 4em;
+    
 }
 
-  h2{
-   color: rgb(255, 255, 255);
-   text-align: center;
-   border: 3px solid #000000;
+.header-divider{
+  max-width: 400px;
+  border-top: 1px solid;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-h3{color: #ffffff;
-}¨
-
-li{color: #ffffff;}
-
-p{color: #ffffff;
-}
-h4{
-  border: 3px solid #ffffff;
-  background-color: black;
+.introduction-section,
+.location-section,
+.questions-section {
+  text-align: left;
+  margin-top: 2em;
+  max-width: 35em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+p, a {
+  font-family: 'News Cycle', Georgia, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.1em;
+  color: #686568;
+  margin-top: 1em;
+}
+
+h3 {
+    
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.mastfoot {
+  
+  background-color: #000000;
+  margin-top: 3em;
+  padding: 4em;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 2em;
+  padding: 0em;
+}
+
+footer li {
+   display: inline;
+   margin: 10px 10px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+ text-decoration: underline; 
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 2em;
+  }
+ .introduction-section,
+  .questions-section,
+  .location-section {
+    margin: 10px;
+  }
+}
+
+.bild1 {
+    position: absolute;
+   top: 770;
+   left: 25px;
+   }
+.bild1 {
+ border: 3px solid #ffffff;
+ }
