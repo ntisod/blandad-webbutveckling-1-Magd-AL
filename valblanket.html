@@ -9,9 +9,12 @@
 
 
 <body style="background-color:#3d3f41">
-    <p>Valblanket inför årskurs 3 formulär</p>
+   
 <body>
+    
     <form>
+        <p>Valblanket inför årskurs 3</p>
+
         <label for="fname">Förnamn:*</label><br>
         <input type="text" name="fname" id="fname"><br>
         <br>
@@ -22,12 +25,15 @@
         <br>
         <input type="text" id="lname">
         <br>
+        <br>
+        
 
         
 
         <fieldset>
 
-                <legend><span class="number"></span>Val</legend>
+                <legend><span class="number">Val:</span></legend>
+                <h2>_____________________________________</h2>
                 <h2> Program: </h2>
                  <!--Koderna här låter dig välja mellan Engineering och Software-->
                 
@@ -35,7 +41,6 @@
             <br>
           <input type="radio" id="BB" value="BB" name="user_choice" onclick="showSoftware()"><label for="BB" class="CHOICE2">Software</label><br> 
           <br>
-          <input type="radio" id="BB" value="BB" name="user_choice" onclick="showGeneral()"><label for="BB" class="CHOICE2">Anmälla val</label><br>
 
         </fieldset>
 
@@ -56,10 +61,7 @@
           <input type="radio" name="individuella-val3" id="modersmal" value="modersmal">
           <label for="modersmal">Modersmål (Nedan skriver du språket)*</label><br>
           <input type="text" name="fname" id="fname"><br>
-          <br>
         </fieldset>
-         <br>
-         <br>
          <!--Koden här hjälper dig välja från Engineering-->
         <fieldset id="Engineering-choises">
          <h1>Val för Engineering</h1>
@@ -73,9 +75,6 @@
          <input type="radio" name="individuella-val6" id="webbserver" value="webbserver">
          <label for="webbserver">Webbserverprogrammering 1</label>
         </fieldset>
-         <br>
-         <br>
-         <br>
          <!--Koden här hjälper dig välja från Software-->
          <fieldset id="Software-choises">
          <h1>Val för Software</h1>
@@ -88,11 +87,7 @@
          <br>
          <input type="radio" name="individuella-val9" id="matte-4" value="matte-4">
          <label for="matte-4">Matematik 4</label>
-        </fieldset>
-
-        <br>
-        <br>
-        <br>
+         </fieldset>
 
         <!--Skicka in button-->
 
@@ -101,6 +96,26 @@
         
  <!--Stylesheet-->
  <style>
+form {
+max-width: 290px;
+margin: 10px auto;
+padding: 10px 20px;
+background: #f3f7f8;
+border-radius: 8px;
+}
+
+form{
+max-width: 430px;
+
+}
+
+
+fieldset {
+margin-bottom: 30px;
+border: none;
+}
+
+
   #Engineering-choises{
             display: none;
         }
