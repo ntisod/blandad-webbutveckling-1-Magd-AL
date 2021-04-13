@@ -169,6 +169,16 @@ hgroup{
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.textbeside {
+  width: 300px;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 5px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 footer {
   width: 100%;
   padding-top: 20px;
@@ -196,19 +206,19 @@ footer p {
   color: #ececec;
 }
 .btn-group button {
-  background-color: #ffffff; /* Green background */
-  border: 5px solid 	#808080; /* Green border */
-  color: rgb(0, 0, 0); /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
+  background-color: #ffffff;
+  border: 5px solid 	#808080; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 24px; 
+  cursor: pointer;
   float: left;
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+  border-right: none; 
 }
 
-/* Clear floats (clearfix hack) */
+
 .btn-group:after {
   content: "";
   clear: both;
@@ -216,7 +226,7 @@ footer p {
 
 }
 
-/* Add a background color on hover */
+
 .btn-group button:hover {
   background-color: 	#808080;
 }
