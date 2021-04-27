@@ -275,23 +275,21 @@ footer p {
 }
 
 .items-body-content {
-  padding: 10px;
+  padding: 12px;
   padding-right: 0px;
-  display: grid;
-  grid-template-columns: 10fr 1fr;
+  display:grid;
+  grid-template-columns: 10fr 0.2fr;
   background-color:#2e2d2d;
   font-size: 15px;
-  grid-gap: 10px;
-  border: 1px solid transparent;
   cursor: pointer;
   color: #ffffff;
-  border-radius: 15px;
-  
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .items-body-content:hover {
   
-  border: 3px solid #070707;
+  border: 1px solid #070707;
 }
 
 .items-body-content i {
